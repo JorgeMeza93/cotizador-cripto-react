@@ -19,5 +19,22 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
     "vite": "^3.1.0"
-  }
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeMeza93/cotizador-cripto-react.git"
+  },
+  "keywords": [
+    "React",
+    "JS",
+    "StyledComponents"
+  ],
+  "author": "Jorge Meza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeMeza93/cotizador-cripto-react/issues"
+  },
+  "homepage": "https://github.com/JorgeMeza93/cotizador-cripto-react#readme",
+  "description": ""
 }
