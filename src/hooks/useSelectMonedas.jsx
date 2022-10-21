@@ -40,7 +40,7 @@ const useSelectMonedas = (label, opciones) => {
         </Select>
     </>
   )
-  return [ state, selectMonedas ]
+  return [state, selectMonedas ]
 }
 
 export default useSelectMonedas
