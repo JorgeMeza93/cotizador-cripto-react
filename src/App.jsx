@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { useState, useEffect } from "react";
 import ImagenCripto from "../src/img/imagen-criptos.png";
 import Formulario from "./components/Formulario";
+import Resultado from "./components/Resultado";
 
 const Heading = styled.h1`
   font-family: "Lato", sans-serif;
@@ -64,6 +65,7 @@ function App() {
           <Formulario
             setMonedas={setMonedas}
           />
+          {resultado.PRICE && <Resultado resultado={resultado}/>}
         </div>
       </Contenedor>
       
